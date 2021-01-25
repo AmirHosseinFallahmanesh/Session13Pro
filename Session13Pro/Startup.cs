@@ -32,7 +32,7 @@ namespace Session13Pro
             //    opt.ViewLocationExpanders.Add(new MyViewLocationExpander());
 
             //});
-
+            Console.WriteLine("Hello world");
 
             services.AddSingleton<IStudentRepositry, StudentRepositry>(); //per RunTime
            // services.AddScoped<IStudentRepositry, StudentRepositry>(); per request
